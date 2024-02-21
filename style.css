@@ -1,0 +1,9 @@
+:root{
+    --cor_botao_clicado: red;
+    --cor_botao_n_clicado: yellow;
+    --cor_fundao: pink;
+    --cor_titulo: green;
+}
+body{ 
+    background-color: aquamarine;
+}
