@@ -1,9 +1,32 @@
 :root{
     --cor_botao_clicado: red;
-    --cor_botao_n_clicado: yellow;
-    --cor_fundao: pink;
-    --cor_titulo: green;
+    --cor_botao_n_clicado: rgb(197, 135, 238);
+    --cor_fundao: rgb(227, 199, 243);
+    --cor_titulo: rgb(129, 58, 187);
 }
 body{ 
-    background-color: aquamarine;
+    background-color: rgb(233, 210, 255);
+}
+h1{
+    color: var(--cor_titulo);
+    text-align: center;
+}
+.principal{ 
+    border: solid white 2px;
+    text-align: center;
+    height: 500px;
+    width: 400px;
+    border-radius: 10%;
+    padding: 10px;
+    background-color: #a899fa;
+}
+button{
+    background-color: #d0c1de;
+    border: solid #6e253e 2px;
+    border-radius: 20%;
+    color: #6e253e;
+}
+main{
+    border-radius: solid  #6e253e 2px;
+    padding-left: 740px;
 }
